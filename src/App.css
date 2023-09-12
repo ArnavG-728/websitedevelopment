@@ -1,0 +1,171 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, table, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header and navigation bar */
+header {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 80px;
+}
+
+/* Style the menu items */
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Style sections */
+section {
+  padding: 40px;
+}
+
+/* Style announcements */
+.announcement-card {
+  border: 2px solid #ccc;
+  padding: 30px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Style the About Us section */
+.leadership-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.leader {
+  text-align: center;
+  margin: 20px;
+}
+
+.leader img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+/* Style the Academics section */
+.timetable {
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the Gallery section */
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.media img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+/* Style the Contact Us section */
+.contact-info {
+  margin-bottom: 20px;
+}
+
+/* Style the Google Maps integration (optional) */
+.map {
+  max-width: 100%;
+  height: 400px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the newsletter popup (optional) */
+.newsletter-popup {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.newsletter-popup h3 {
+  margin-bottom: 10px;
+}
+
+.newsletter-popup form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-popup input[type="email"] {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.newsletter-popup button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive design (example, you may need more CSS for responsiveness) */
+@media screen and (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  nav li {
+      margin: 10px 0;
+  }
+
+  .newsletter-popup {
+      top: 10px;
+      right: 10px;
+  }
+}
