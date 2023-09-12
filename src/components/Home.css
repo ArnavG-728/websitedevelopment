@@ -1,0 +1,26 @@
+/* Home.css */
+.home {
+    text-align: center;
+    padding: 60px;
+    background-color: #f9f9f9;
+}
+
+.logo-container {
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 250px; 
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}

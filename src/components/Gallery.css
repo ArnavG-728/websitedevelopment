@@ -1,0 +1,25 @@
+/* Style the Gallery section */
+.gallery {
+    padding: 20px;
+}
+
+/* Style the media grid */
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.media-item img {
+    max-width: 50%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style embedded video */
+.embedded-video {
+    width: 100%;
+    max-width: 800px;
+}
+

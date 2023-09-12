@@ -1,0 +1,49 @@
+/* Style the header as fixed at the top */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    z-index: 1000; /* Adjust the z-index to control the stacking order */
+}
+
+/* Style the logo and school name */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style navigation links on hover */
+nav a:hover {
+    color: #ff9900;
+}

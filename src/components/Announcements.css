@@ -1,0 +1,36 @@
+/* Style the announcements section */
+.announcements {
+    -webkit-padding-start: 20px;
+   
+    /*padding-top: 100px;*/
+}
+
+/* Style individual announcement cards */
+.announcement-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.announcement-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.announcement-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Style date and summary */
+.announcement-card .date {
+    font-size: 12px;
+    color: #888;
+}
+
+.announcement-card .summary {
+    font-size: 16px;
+}
